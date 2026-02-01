@@ -7,13 +7,15 @@ body {
 
 
 .sidebar {
+  align-content: center;
+  height: 100%; 
   width: 300px; 
   background-color: #ffffff; 
   color: white;
   padding-top: 100px;
   position: fixed; 
-  height: 100%; 
   overflow-x: hidden; 
+  z-index: 1;
 }
 
 
@@ -37,3 +39,13 @@ body {
   padding: 300px;
   flex-grow: 1; 
 }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.my-face {
+  border: 5px solid;
+border-color: #000000;
+border-width: 5px;
+ }
