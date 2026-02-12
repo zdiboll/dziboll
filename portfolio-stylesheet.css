@@ -40,11 +40,13 @@ body {
 }
 
 .main-content {
-  height: auto;
+  height: 100vh;
+  background-size: auto;
   background-color: #ebebeb;
   margin-left: 300px; 
   padding: 200px;
   flex-grow: 1; 
+  overflow: auto;
 }
 
 img{
@@ -58,4 +60,12 @@ color: black;
  .nav{
   text-wrap: nowrap;
   justify-content: row-reverse;
+ }
+
+ .card-group{
+  justify-content: space-around;
+  display: flexbox;
+  flex-direction: row-reverse;
+  gap: 50px;
+  flex-wrap: wrap-reverse;
  }
